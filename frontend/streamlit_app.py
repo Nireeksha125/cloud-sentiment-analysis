@@ -12,7 +12,7 @@ if st.button("Predict Sentiment"):
     if text.strip() != "":
 
         response = requests.post(
-            "http://127.0.0.1:5000/predict",
+            "https://cloud-sentiment-analysis.onrender.com/predict",
             json={"text": text}
         )
 
