@@ -46,8 +46,9 @@ User → Streamlit Cloud (Frontend) → Flask API on Render → ML Model → Mon
 
 # Dataset
 
-Sentiment140 Dataset from Kaggle
-
+Dataset: Sentiment140
+Source: Kaggle
+Link: https://www.kaggle.com/datasets/kazanova/sentiment140
 Dataset contains tweets labeled as positive or negative sentiments.
 
 ---
